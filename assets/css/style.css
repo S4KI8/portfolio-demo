@@ -109,6 +109,7 @@ hr {
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
 }
+
 /* Responsive */
 
 /* For Small Phone */
@@ -128,14 +129,14 @@ hr {
     margin-left: 2.5rem;
   }
   .full-name {
-    line-height: 1.85rem;
+    line-height: 1.5rem;
   }
   .first-name,
   .last-name {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
   .hero-paragraph {
-    font-size: 0.5rem;
+    font-size: 0.35rem;
     margin-top: -0.35rem;
   }
   .w,
@@ -144,31 +145,35 @@ hr {
   .v,
   .a,
   .vb {
-    font-size: 0.65rem;
+    font-size: 0.5rem;
   }
   .find-me,
   .find-me > * {
-    margin-top: 0.8rem;
-    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    font-size: 0.6rem;
   }
   .hero-link-items {
-    gap: 10px;
+    gap: 0.3rem;
     margin-top: -0.05rem;
   }
   .facebook-icon,
   .linkedin-icon,
   .facebook-messenger-icon,
   .whatsapp-icon {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   .hero-btn {
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
   }
   .button-contact-me {
-    font-size: 0.7rem;
-    padding: 0.35rem 0.75rem;
+    font-size: 0.5rem;
+    padding: 0.25rem 0.5rem;
+  }
+  .hero-btn {
+    margin-top: 0.25rem;
   }
 }
+/* For Small Phone */
 
 /* For Medium Phone */
 @media (min-width: 576px) and (max-width: 768px) {
@@ -238,6 +243,20 @@ hr {
 .hero-image {
   height: 62.5vh;
 }
+/* Responsive */
+
+/* For Small Phone */
+@media (max-width: 575px) {
+  .hero-image {
+    height: 45vh;
+  }
+}
+/* For Small Phone */
+
+/* For Medium Phone */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+/* Responsive */
 /* Hero Section */
 
 /* About Me Section */
