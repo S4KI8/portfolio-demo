@@ -1,0 +1,281 @@
+/* Universal */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+/* Universal */
+
+/* Section Divider */
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+/* Section Divider */
+
+/* Hero Section */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.hero-left-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.full-name,
+.hero-paragraph,
+.find-me,
+.hero-link-items,
+.hero-btn {
+  margin-left: 90px;
+}
+.full-name {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  color: #1c1c5a;
+  line-height: 3rem;
+}
+.first-name,
+.last-name {
+  font-size: 3.25rem;
+  letter-spacing: 3px;
+}
+.last-name {
+  color: #e1468b;
+  font-style: italic;
+}
+.hero-paragraph {
+  margin-top: -0.75rem;
+  font-weight: 400;
+}
+.w,
+.d,
+.e,
+.v,
+.a {
+  color: #ea9a51;
+}
+.vb,
+.find {
+  color: #406ff9;
+}
+.hero-paragraph,
+.find-me {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+}
+.find-me {
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.hero-link-items {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin-top: 0.4rem;
+}
+.facebook-icon,
+.linkedin-icon,
+.facebook-messenger-icon,
+.whatsapp-icon {
+  font-size: 1.5rem;
+}
+.facebook-icon {
+  color: #316ff6;
+}
+.linkedin-icon {
+  color: #0a66c2;
+}
+.facebook-messenger-icon {
+  color: #006aff;
+}
+.whatsapp-icon {
+  color: #075e54;
+}
+.hero-btn {
+  margin-top: 1.5rem;
+}
+.button-contact-me {
+  background-color: #1c1c5a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+/* Responsive */
+
+/* For Small Phone */
+@media (max-width: 575px) {
+  .hero-section {
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+  }
+  .hero-left-items {
+    order: 1;
+  }
+  .full-name,
+  .hero-paragraph,
+  .find-me,
+  .hero-link-items,
+  .hero-btn {
+    margin-left: 2.5rem;
+  }
+  .full-name {
+    line-height: 1.85rem;
+  }
+  .first-name,
+  .last-name {
+    font-size: 1.8rem;
+  }
+  .hero-paragraph {
+    font-size: 0.5rem;
+    margin-top: -0.35rem;
+  }
+  .w,
+  .d,
+  .e,
+  .v,
+  .a,
+  .vb {
+    font-size: 0.65rem;
+  }
+  .find-me,
+  .find-me > * {
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .hero-link-items {
+    gap: 10px;
+    margin-top: -0.05rem;
+  }
+  .facebook-icon,
+  .linkedin-icon,
+  .facebook-messenger-icon,
+  .whatsapp-icon {
+    font-size: 1rem;
+  }
+  .hero-btn {
+    margin-top: 0.75rem;
+  }
+  .button-contact-me {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.75rem;
+  }
+}
+
+/* For Medium Phone */
+@media (min-width: 576px) and (max-width: 768px) {
+  .hero-section {
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto;
+  }
+  .hero-left-items {
+    order: 1;
+  }
+  .full-name,
+  .hero-paragraph,
+  .find-me,
+  .hero-link-items,
+  .hero-btn {
+    margin-left: 2.5rem;
+  }
+  .full-name {
+    line-height: 1.85rem;
+  }
+  .first-name,
+  .last-name {
+    font-size: 1.8rem;
+  }
+  .hero-paragraph {
+    font-size: 0.5rem;
+    margin-top: -0.35rem;
+  }
+  .w,
+  .d,
+  .e,
+  .v,
+  .a,
+  .vb {
+    font-size: 0.65rem;
+  }
+  .find-me,
+  .find-me > * {
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .hero-link-items {
+    gap: 10px;
+    margin-top: -0.05rem;
+  }
+  .facebook-icon,
+  .linkedin-icon,
+  .facebook-messenger-icon,
+  .whatsapp-icon {
+    font-size: 1rem;
+  }
+  .hero-btn {
+    margin-top: 0.75rem;
+  }
+  .button-contact-me {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.75rem;
+  }
+}
+/* Responsive */
+
+.hero-right-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image {
+  height: 62.5vh;
+}
+/* Hero Section */
+
+/* About Me Section */
+.about-me-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: 2rem 0px;
+}
+.container-profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12.65rem;
+}
+.profile-image {
+  height: 12rem;
+  border-radius: 50%;
+  border: 2px solid #1c1c5a;
+}
+.about-me {
+  font-family: "EB Garamond", serif;
+  align-self: flex-start;
+  margin: 0px 0px 10px 0px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #406ff9;
+  text-transform: uppercase;
+}
+.about-me-paragraph {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  color: #383838;
+}
+/* About Me Section */
