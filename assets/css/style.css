@@ -110,6 +110,15 @@ hr {
   border-radius: 0.25rem;
 }
 
+.hero-right-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image {
+  height: 62.5vh;
+}
+
 /* Responsive */
 
 /* For Small Phone */
@@ -171,6 +180,9 @@ hr {
   }
   .hero-btn {
     margin-top: 0.25rem;
+  }
+  .hero-image {
+    height: 40vh;
   }
 }
 /* For Small Phone */
@@ -234,29 +246,6 @@ hr {
   }
 }
 /* Responsive */
-
-.hero-right-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.hero-image {
-  height: 62.5vh;
-}
-/* Responsive */
-
-/* For Small Phone */
-@media (max-width: 575px) {
-  .hero-image {
-    height: 45vh;
-  }
-}
-/* For Small Phone */
-
-/* For Medium Phone */
-@media (min-width: 576px) and (max-width: 768px) {
-}
-/* Responsive */
 /* Hero Section */
 
 /* About Me Section */
@@ -312,7 +301,7 @@ hr {
     height: 7.5rem;
   }
   .container-about-me {
-    margin: 0rem 2rem;
+    margin: 0rem 2.5rem;
   }
   .about-me {
     align-self: center;
