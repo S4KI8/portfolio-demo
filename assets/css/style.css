@@ -271,6 +271,12 @@ hr {
   justify-content: center;
   align-items: center;
 }
+.profile-image {
+  height: 12rem;
+  border-radius: 50%;
+  border: 2px solid #1c1c5a;
+}
+
 .container-about-me {
   display: flex;
   flex-direction: column;
@@ -278,11 +284,7 @@ hr {
   align-items: center;
   margin-right: 12.65rem;
 }
-.profile-image {
-  height: 12rem;
-  border-radius: 50%;
-  border: 2px solid #1c1c5a;
-}
+
 .about-me {
   font-family: "EB Garamond", serif;
   align-self: flex-start;
@@ -297,4 +299,34 @@ hr {
   text-align: justify;
   color: #383838;
 }
+
+/* Responsive */
+
+/* For Small Phone */
+@media (max-width: 575px) {
+  .about-me-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-image {
+    height: 7.5rem;
+  }
+  .container-about-me {
+    margin: 0rem 2rem;
+  }
+  .about-me {
+    align-self: center;
+    margin: 1rem 0px 0.5rem 0px;
+    font-size: 1.25rem;
+  }
+  .about-me-paragraph {
+    font-size: 0.7rem;
+  }
+}
+/* For Small Phone */
+
+/* For Medium Phone */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+/* Responsive */
 /* About Me Section */
