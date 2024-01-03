@@ -423,9 +423,12 @@ hr {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.5rem;
     font-family: "Poppins", sans-serif;
     color: #383838;
+  }
+  .dakhil-details {
+    align-self: center;
   }
   .hsc-details {
     display: none;
@@ -461,8 +464,8 @@ hr {
     width: 75px;
   }
   .madrasha-logo {
-    height: 100px;
-    width: 100px;
+    height: 97.5px;
+    width: 97.5px;
   }
 }
 /* For Small Phone */
